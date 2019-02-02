@@ -1,17 +1,21 @@
 h1 {
     text-align: center;
+     font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+    border-bottom: 4px solid #c074f7;
 }
 
 #cart {
     display: flex;
     justify-content: center;
-    border-top: 5px solid black;
-    border-bottom: 5px solid black;
+    border-top: 5px solid #c074f7;
+    border-bottom: 5px solid #c074f7;
 }
 
 .column {
     width: 18%;
     padding: 25px 0px;
+   
 }
 
 #images img {
@@ -64,3 +68,11 @@ button {
     font-size: 14px;
     padding: 5px 10px;
 }
+.add{
+    border-radius: 30px;
+    border:2px solid #c074f7;
+}
+.lol{
+   border-radius: 30px; 
+}
+
